@@ -1,0 +1,46 @@
+.user-list{
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid gray;
+    box-shadow: 5px 10px #888888;
+    border-radius: 20px;
+    width: 30%;
+    padding: 20px;
+}
+.user-box{
+    display: inline-block;
+    text-align: left;
+    position: relative;
+}
+.user-img{
+    display: inline-block;
+    position: relative;
+    height: 60%;
+    width: 60%;
+}
+
+#name{
+    color:red
+}
+#price{
+    color: green;
+}
+#discount{
+    color: orangered;
+}
+p{
+    color:rgb(124, 124, 124);
+}
+
+.expired-img{
+    display: block;
+    padding: 0px;
+    position: absolute;
+    margin: 0px;
+    z-index: 100;
+    top: 100px;
+    right: 50px;
+    width: 100%;
+}
